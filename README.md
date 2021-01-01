@@ -7,7 +7,7 @@ The `app://` URL Scheme which can be launched via HTML Links:
 
 ### [app://mythz/vuedesktop](app://mythz/vuedesktop)
 
-> Need to copy + paste URL in browser as GitHub doesn't allow custom URL schemes.
+> Need to copy + paste URL in browser as GitHub markdown doesn't allow custom URL links
 
 From the command-line:
 
@@ -15,10 +15,12 @@ From the command-line:
 
 Users can also download and run a local copy launched with a Windows Shortcut:
 
-    $ app download mythz/vuedesktop
-    $ cd mythz/vuedesktop
-    $ app shortcut
+    $ app download mythz/vuedesktop && cd vuedesktop && app shortcut
 
-Then copy the **Vue Desktop** Shortcut to your Desktop where you can double-click it to launch your App:
+This will download this repo and create a **Vue Desktop** Windows Shortcut you can use to launch this App:
+
+![](https://raw.githubusercontent.com/ServiceStack/docs/master/docs/images/app/vue-desktop/vuedesktop-dist.png)
+
+The **Vue Desktop** Shortcut can be moved elsewhere, e.g. to your Desktop for easy access to launch your App:
 
 [![](https://raw.githubusercontent.com/ServiceStack/docs/master/docs/images/app/vue-desktop/vuedesktop-screenshot.png)](https://github.com/NetCoreTemplates/vue-desktop)
