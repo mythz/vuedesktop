@@ -24,3 +24,27 @@ This will download this repo and create a **Vue Desktop** Windows Shortcut you c
 The **Vue Desktop** Shortcut can be moved elsewhere, e.g. to your Desktop for easy access to launch your App:
 
 [![](https://raw.githubusercontent.com/ServiceStack/docs/master/docs/images/app/vue-desktop/vuedesktop-screenshot.png)](https://github.com/NetCoreTemplates/vue-desktop)
+
+### Run locally installed version
+
+All apps run the latest version by default so it's always up-to-date, but you can speed up App launch times by running the last installed app using the `app:` Custom URL Scheme:
+
+### [app:vuedesktop](app:vuedesktop)
+
+For Gist deployed Apps, it will run the last downloaded app or download & run the latest App gist if it's the first time it's run.
+
+For GitHub repo Apps, you can download and install them locally with:
+
+    $ app install mythz/vuedesktop
+
+Where the downloaded version can be run using its `<repo>` name, e.g:
+
+### [app:vuedesktop](app:vuedesktop)
+    
+Both Gist and Desktop Apps can be uninstalled using app uninstall, e.g:
+
+    $ app uninstall vuedesktop
+
+To view all installed Sharp Apps, run:
+
+    $ app uninstall
